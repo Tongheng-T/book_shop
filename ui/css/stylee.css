@@ -1,33 +1,39 @@
-body{
+body {
     background-color: #e7edf1;
 }
-.mun{
+
+.mun {
     margin: 16px;
     width: 100%;
     max-width: 15%;
     float: left;
 }
-.wrapper{
+
+.wrapper {
     margin: 89px;
     display: flex;
 }
 
-.table_mun{
+.table_mun {
     border-collapse: collapse;
     width: 100%;
     padding: 8px;
 }
-.tr_mun .th_mun{
+
+.tr_mun .th_mun {
     border: 1px solid #dddddd;
     text-align: center;
     padding: 8px;
 }
-.th_mun a{
+
+.th_mun a {
     text-decoration: none;
 }
-.th_mun:hover{
+
+.th_mun:hover {
     background: #dddddd;
 }
+
 .tr_mun {
     background-color: rgb(255, 255, 255);
 }
@@ -38,13 +44,41 @@ input {
     height: 30px;
     margin: 5px;
 }
-label{
+
+label {
     display: inline-block;
     width: 100px;
     text-align: right;
 }
 
-.add_pro{
+.add_pro {
     width: 100%;
     margin-left: 24%;
+}
+
+
+/* product List */
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+.tr_pro td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 13px;
+}
+
+.tr_pro {
+    background: #ffffff;
+}
+
+.tr_pro:nth-child(even) {
+    background: #dddddd;
+}
+.prolist{
+    width: 100%;
 }

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylee.css">
     <title>Document</title>
 </head>
 
@@ -18,7 +18,7 @@
                         <th class="th_mun"><a href="addproduct.php">Add Product</a></th>
                     </tr>
                     <tr class="tr_mun">
-                        <th class="th_mun"><a href="">Product Lis</a></th>
+                        <th class="th_mun"><a href="product.php">Product Lis</a></th>
                     </tr>
                 </tbody>
             </table>
