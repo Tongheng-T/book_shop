@@ -67,7 +67,7 @@ function show_product_list()
             <td><img src="img/' . $row['img'] . '" width="50"></td>
             <td>' . $row['product_qty'] . '</td>
             <td>' . $row['product_price'] . ' $</td>
-            <td></td>
+            <td><a href="edit_product.php?id=' . $row['product_id'] . '" class="btn btn-edit" title="Edit">Edit</a></td>
             <td><button type="submit" value="' . $row['product_id'] . '" name="tbndelete" title="Delete" style="background:red;">Delete</button></button></button></td>
         </tr>
         
